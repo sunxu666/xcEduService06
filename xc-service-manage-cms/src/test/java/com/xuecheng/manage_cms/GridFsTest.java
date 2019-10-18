@@ -21,6 +21,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 /**
+ * MogoDB的GridFS的存文件&取文件
  * @author Administrator
  * @version 1.0
  * @create 2018-09-12 18:11
