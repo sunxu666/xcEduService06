@@ -22,6 +22,7 @@ public class testRestTemplate {
     RestTemplate restTemplate;
     @Test
     public void testRestTemplate(){
+        //远程调用 OKHttpCline HTTPCline
         ResponseEntity<Map> forEntity = restTemplate.getForEntity("http://localhost:31001/cms/page/get/5a754adf6abb500ad05688d9", Map.class);
         System.out.println(forEntity);
     }
