@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.ComponentScan;
 
 /**
+ * mq的消费方-监听cms对应的服务并下载GridFS上静态化文件
  * @author Administrator
  * @version 1.0
  **/

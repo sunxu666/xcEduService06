@@ -26,10 +26,14 @@ zuul网关
 学习-视频点播 
 ##xc-service-manage-cms
 课程管理
+    mq的生产方-通知cms对应的服务下载GridFS上静态化文件
+    页面静态化方法
+    页面发布--》向mq 发送消息
 ##xc-service-manage-cms-client
 课程管理
-    
+    mq的消费方-监听cms对应的服务并下载GridFS上静态化文件
     页面发布_GridFS
+    比xc-service-manage-cms先启动监听
 ##xc-service-manage-course
 课程
 +权限Spring oauth2
