@@ -9,7 +9,7 @@ import java.util.concurrent.TimeoutException;
 
 /**
  * rabbitmq的入门程序
- *
+ * 工作模式
  * @author Administrator
  * @version 1.0
  * @create 2018-06-17 9:05

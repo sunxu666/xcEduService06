@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
 /**
+ * 订阅模式
  * @author Administrator
  * @version 1.0
  * @create 2018-06-17 18:10
